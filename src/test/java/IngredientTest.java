@@ -29,7 +29,7 @@ public class IngredientTest {
 
     @Test
     public void getTypeReturnsCorrectValue() {
-        ingredient = new Ingredient(IngredientType.FILLING, "sauce", 20);
+        ingredient = new Ingredient(IngredientType.FILLING, "sausage", 20);
 
         String expectedType = "filling";
         String actualType = ingredient.getType().toString().toLowerCase();
